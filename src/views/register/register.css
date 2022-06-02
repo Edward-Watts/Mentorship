@@ -1,0 +1,25 @@
+label {
+    margin-top: 10px;
+}
+
+.input {
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.signinFormWrapper {
+    flex-direction: column;
+    height: 92vh !important;
+    text-align: left;
+}
+
+.form {
+    display: inline-grid;
+    width: 350px;
+}
+
+.error {
+    color: red;
+    font-size: x-small;
+}
