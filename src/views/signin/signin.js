@@ -34,7 +34,7 @@ const Signin = () => {
                 validationSchema={signInSchema}
                 onSubmit={values => signInHandler(values)}>
                 {({ errors, touched }) => (
-                    <div className="signinFormWrapper d-flex justify-content-center align-items-center">
+                    <div className="signinFormWrapper d-flex justify-content-center align-items-center text-dark">
                         <div className="text mt-4">
                             <h1>Mentorship</h1> 
                         </div>
@@ -53,7 +53,7 @@ const Signin = () => {
                             {errors.password && touched.password ? (<small className="error">{errors.password}</small>) : null}
                             <button className="btn btn-dark mt-4" variant="primary" type="submit"> Sign in </button>
                         </Form>
-                        <div className="mt-4">
+                        <div className="m-4">
                             New here? <a className="signLink" href="register">Create an account</a>
                         </div>
                     </div>

@@ -48,11 +48,11 @@ const Register = () => {
                 validationSchema={registerSchema}
                 onSubmit={values => registerHandler(values)}>
                 {({ errors, touched }) => (
-                    <div className="signinFormWrapper d-flex justify-content-center align-items-center">
+                    <div className="formWrapper d-flex justify-content-center align-items-center text-dark">
                         <div className="text mt-4">
                             <h1>Mentorship</h1> 
                         </div>
-                        <div className=""><h5>Create an account</h5></div>
+                        <div className=""><h5>Register as a Mentee</h5></div>
                         <Form className="form">
                             {show ? 
                             <div className="">
@@ -80,7 +80,7 @@ const Register = () => {
 
                             <button className="btn btn-dark mt-4" variant="primary" type="submit"> Register </button>
                         </Form>
-                        <div className="mt-4">
+                        <div className="m-4">
                             Already have an account? <a className="signLink" href="signin">Sign in</a>
                         </div>
                     </div>
